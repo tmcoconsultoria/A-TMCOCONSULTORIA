@@ -520,9 +520,9 @@
 
 
     <div class="grid">
-      <div class="q"><label>Razão Social <small class="req">*</small></label><input required value="Facilita Telecom LTDA" name="razao_social" /></div>
+      <div class="q"><label>Razão Social <small class="req">*</small></label><input required name="razao_social" /></div>
       <div class="q"><label>Nome Fantasia</label><input name="nome_fantasia" /></div>
-      <div class="q"><label>CNPJ <small class="req">*</small></label><input required name="cnpj" id="cnpj"value="13.045.960/0001-10"placeholder="13.045.960/0001-10" /></div>
+      <div class="q"><label>CNPJ <small class="req">*</small></label><input required name="cnpj" id="cnpj" placeholder="00.000.000/0000-00" /></div>
       <div class="q"><label>Inscrição Estadual</label><input name="ie" /></div>
       <div class="q"><label>Inscrição Municipal</label><input name="im" /></div>
       <div class="q full"><label>Endereço</label><input name="endereco" /></div>
@@ -575,12 +575,12 @@
   
 
     <div class="grid">
-      <div class="q"><label>EASI/nSAPN:</label><select id="EASI" name="EASI"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
-      <div class="q"><label>ESOA/SNOA:</label><select id="ESOA" name="ESOA"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
-      <div class="q"><label>nSAPN/QEML:</label><select id="nSAPN" name="nSAPN"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
-      <div class="q"><label>BA ITX:</label><select id="baitx" name="BA_ITX"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
-      <div class="q"><label>Portabilidade:</label><select id="portabilidade" name="Portabilidade"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
-      <div class="q"><label>STIRSHAKEN:</label><select id="STIRSHAKEN" name="STIRSHAKEN"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
+      <div class="q"><label>EASI/nSAPN:</label><select id="EASI" name="EASI"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
+      <div class="q"><label>ESOA/SNOA:</label><select id="ESOA" name="ESOA"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
+      <div class="q"><label>nSAPN/QEML:</label><select id="nSAPN" name="nSAPN"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
+      <div class="q"><label>BA ITX:</label><select id="baitx" name="BA_ITX"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
+      <div class="q"><label>Portabilidade:</label><select id="portabilidade" name="Portabilidade"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
+      <div class="q"><label>STIRSHAKEN:</label><select id="STIRSHAKEN" name="STIRSHAKEN"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
     </div>
 
     <h3>Possui recursos de numeração?</h3>
@@ -589,10 +589,10 @@
   </div>
 
     <div class="grid">
-      <div class="q"><label>RN1:</label><select id="RN1" name="RN1"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
-      <div class="q"><label>EOT:</label><select id="EOT" name="EOT"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
-      <div class="q"><label>Prefixo:</label><select id="Prefixo" name="Prefixo"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
-      <div class="q"><label>CNG:</label><select id="CNG" name="CNG" ><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
+      <div class="q"><label>RN1:</label><select id="RN1" name="RN1"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
+      <div class="q"><label>EOT:</label><select id="EOT" name="EOT"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
+      <div class="q"><label>Prefixo:</label><select id="Prefixo" name="Prefixo"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
+      <div class="q"><label>CNG:</label><select id="CNG" name="CNG" ><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
     </div>
 
     <h3>Sistemas da ABR Telecom já implantados?</h3>
@@ -601,29 +601,29 @@
   </div>
 
     <div class="grid">
-      <div class="q"><label>Portabilidade:</label><select id="Portabilidade_implantada" name="Portabilidade_implantada"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
+      <div class="q"><label>Portabilidade:</label><select id="Portabilidade_implantada" name="Portabilidade_implantada"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
       <div class="q"><label>Qual fornecedor?</label><input name="FORNECEDOR_implantada1" id="FORNECEDOR_implantada1" placeholder="" /></div>
-      <div class="q"><label>STIRSHAKEN:</label><select id="STIRSHAKEN_implantada" name="STIRSHAKEN_implantada"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
+      <div class="q"><label>STIRSHAKEN:</label><select id="STIRSHAKEN_implantada" name="STIRSHAKEN_implantada"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
       <div class="q"><label>Qual fornecedor?</label><input name="FORNECEDOR_implantada2" id="FORNECEDOR_implantada2" placeholder="" /></div>
     </div>
     
     <h3>Possui CONTRATOS DE INTERCONEXÃO com as operadoras?</h3>
     <div class="grid">
-      <div class="q"><label>ALGAR:</label><select id="ALGAR_contrato" name="ALGAR_contrato"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
-      <div class="q"><label>CLARO:</label><select id="CLARO_contrato" name="CLARO_contrato"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
-      <div class="q"><label>OI:</label><select id="OI_contrato" name="OI_contrato"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
-      <div class="q"><label>TIM:</label><select id="TIM_contrato" name="TIM_contrato"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
-      <div class="q"><label>VIVO:</label><select id="VIVO_contrato" name="VIVO_contrato"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
+      <div class="q"><label>ALGAR:</label><select id="ALGAR_contrato" name="ALGAR_contrato"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
+      <div class="q"><label>CLARO:</label><select id="CLARO_contrato" name="CLARO_contrato"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
+      <div class="q"><label>OI:</label><select id="OI_contrato" name="OI_contrato"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
+      <div class="q"><label>TIM:</label><select id="TIM_contrato" name="TIM_contrato"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
+      <div class="q"><label>VIVO:</label><select id="VIVO_contrato" name="VIVO_contrato"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
       <div class="q"><label>OUTROS:</label><input name="OUTROS_contrato" id="OUTROS_contrato" placeholder="" /></div>
     </div>
     
     <h3>Possui INTERCONEXÃO estabelecidas com as operadoras?</h3>
     <div class="grid">
-      <div class="q"><label>ALGAR:</label><select id="ALGAR_itx" name="ALGAR_itx"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
-      <div class="q"><label>CLARO:</label><select id="CLARO_itx" name="CLARO_itx"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
-      <div class="q"><label>OI:</label><select id="OI_itx" name="OI_itx"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
-      <div class="q"><label>TIM:</label><select id="TIM_itx" name="TIM_itx"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
-      <div class="q"><label>VIVO:</label><select id="VIVO_itx" name="VIVO_itx"><option value="">Selecione</option><option>Sim</option><option selected>Não</option></select></div>
+      <div class="q"><label>ALGAR:</label><select id="ALGAR_itx" name="ALGAR_itx"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
+      <div class="q"><label>CLARO:</label><select id="CLARO_itx" name="CLARO_itx"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
+      <div class="q"><label>OI:</label><select id="OI_itx" name="OI_itx"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
+      <div class="q"><label>TIM:</label><select id="TIM_itx" name="TIM_itx"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
+      <div class="q"><label>VIVO:</label><select id="VIVO_itx" name="VIVO_itx"><option value="" selected>Selecione</option><option>Sim</option><option>Não</option></select></div>
       <div class="q"><label>OUTROS:</label><input name="OUTROS_itx" id="OUTROS_itx" placeholder="" /></div>
     </div>
     
